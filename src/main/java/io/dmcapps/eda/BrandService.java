@@ -8,12 +8,12 @@
 
 // @ApplicationScoped
 // @Transactional(REQUIRED)
-// public class ProductService {
+// public class BrandService {
 
-//     public Product persistProduct(@Valid Product product) {
+//     public Brand persistBrand(@Valid Brand brand) {
 
-//         Product.persist(product);
-//         return product;
+//         Brand.persist(brand);
+//         return brand;
 //     }
     
 // }
