@@ -1,5 +1,7 @@
 package io.dmcapps.eda;
 
+import javax.json.bind.Jsonb;
+import javax.json.bind.JsonbBuilder;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -71,7 +73,6 @@ public class ProductEntity {
     public void setPicture(String picture) {
         this.picture = picture;
     }
-
 
     
 }
